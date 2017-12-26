@@ -2,7 +2,7 @@
 //  Author: Btainlee
 //  Time:   2017/12/23
 //  Func:   优雅找图书馆座位
-
+echo "<link rel=\"stylesheet\" type=\"text/css\" href=\"main.css\" />";
 //获得cookie
 $url = 'http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/login.aspx';
 $postData = array(
@@ -50,7 +50,7 @@ $getData = array(
     'room_id'=>'100456538',
     'purpose'=>'',
     'cld_name'=>'default',
-    'date'=> date("Y-m-d",time()),
+    'date'=> date("Y-m-d",(int)time()+86400),
     'fr_start'=>'15:40',
     'fr_end'=>'16:40',
     'act'=>'get_rsv_sta',
@@ -77,10 +77,17 @@ curl_close($ch);
 $seatArray = array();
 foreach($output->data as $v)
 {
-   $seatArray[$v->devId] = $v->name;
+//    $seatArray[$v->devId] = [$v->name,$v->ops[0]->owner];
+   $tmpArr = array(
+       'id' =>  $v->devId,
+       'name'   =>$v->name,
+       'owner'  =>$v->ts
+   );
+   array_push($seatArray,$tmpArr);
 }
 
 
+//提示文字
 echo "<h1>请在url中room参数后改自习室查询座位号</h1>";
 echo "<h3>可选教室:</h3>";
 echo "<h1><font color='red'>";
@@ -89,10 +96,17 @@ foreach($room_id as $k=>$v)
     echo "$k"."、";
 }
 echo "</font><h1>";
-echo "<table style='border: 1px solid red'><tr><td>编号</td><td>座位</td></tr>";
+
+//打印座位情况
+echo "<table style='border: 1px solid red;border-collapse:collapse;'><tr><td>编号</td><td>座位</td><td>此刻谁在座</td></tr>";
 foreach($seatArray as $k => $v)
 {
-    echo "<tr><td>".$k."</td><td>".$v."</td></tr>";
+    $infoStr = '';
+    foreach($v['owner'] as $val)
+    {
+        $infoStr .= $val->start . ' ' .$val->end. '<a href="./getOwnerInfo.php?owner=' . $val->owner .'"> '. $val->owner .'</a><br>';
+    }
+    echo "<tr><td>".$v['id']."</td><td>".$v['name']."</td><td>".$infoStr."</td></tr>";
 }
 echo "</table>";
 

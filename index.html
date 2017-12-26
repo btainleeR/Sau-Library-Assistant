@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>更优雅地选多人</title>
+    <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <form action="">
+                    <div class="form-group">
+                       <label for="id">name</label>
+                       <input type="text" name="" id="id" class="form-control">
+                    </div>
+                    <div class="form-group">
+                       <label for="pwd">password</label>
+                       <input type="password" id="pwd" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="date">日期</label>
+                        <input type="text" id="date" class="form-control" placeholder="2017-12-12">
+                    </div>
+                    <div class="form-group">
+                        <label for="startTime">开始时间</label>
+                        <input type="text"  id="startTime" placeholder="1320" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="endTime">结束时间</label>
+                        <input type="text" id="endTime" placeholder="1420" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="devId">座位号(<a href="./getlibdata.php">点击此处查询</a>)</label>
+                        <input type="text"  id="devId" class="form-control">
+                    </div>
+                    <div class=" col-md-6 col-md-offset-3 form-group">
+                       <button class="btn btn-success" id="add">aDd In</button>
+                       <button class="btn btn-warning">Do nOT CLick mE</button>
+                    </div>
+                 </form>
+            </div>
+        </div>
+    </div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#add').click(function(){
+            event.preventDefault();
+            var id = $('#id').val();
+            var pwd = $('#pwd').val();
+            var date = $('#date').val();
+            var startTime = $('#startTime').val();
+            var endTime = $('#endTime').val();
+            var devId = $('#devId').val();
+            
+            //添加到文件接口
+            $.ajax({
+                url :   './addinfo.php',
+                type:   'post',
+                data:{
+                    id:id,
+                    pwd:pwd,
+                    date:data,
+                    startTime:startTime,
+                    endTime:endTime,
+                    devId:devId
+                },
+                success:function()
+                {
+                    
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
