@@ -8,7 +8,8 @@
 <b>http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/reserve.aspx</b>,  
 GET方式提，注意url参数的url编码问题。<font color="red">通过Cookies识别用户身份，无Cookies禁止调用</font>
 
-<h4>参数列表:</h4>
+<h5>参数列表:</h5>  
+
 ```javascript
 {
             'dev_id'    =>  '', // 座位唯一编号(在获取座位编号接口获取)
@@ -35,6 +36,7 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
 <b>http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/device.aspx</b>  
 <code>GET</code>方式获取。需要携带Cookies,无Cookie无法调用。
 <h4>参数列表:</h4>
+
 ```javascript
 {
     'byType'=>'devcls',
@@ -52,6 +54,7 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
  }
 ```
  <h5>屋子编号对应表:</h5>
+ 
 ```javascript
 {
     '701'   =>      '107396184',
