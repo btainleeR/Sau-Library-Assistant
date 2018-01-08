@@ -1,0 +1,12 @@
+[ 2018-01-07T16:34:43+08:00 ] ::1 /seat/Public/images/pic1.jpeg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001133s ]
+ERR: 无法加载模块:Public
+
+[ 2018-01-07T16:40:25+08:00 ] ::1 /seat/index/index.php?
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001333s ]
+ERR: 无法加载模块:Index
+
