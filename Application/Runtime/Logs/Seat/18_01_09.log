@@ -1,0 +1,46 @@
+[ 2018-01-09T00:00:12+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_loadSeat.html?room=100457241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0486s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0033s ]
+
+[ 2018-01-09T00:00:51+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_loadSeat.html?room=100456544
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0452s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100456544' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0386s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '643%'  [ RunTime:0.0017s ]
+
+[ 2018-01-09T00:01:16+08:00 ] ::1 /seat/index.php/Seat/Queue/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001310s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019698s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
