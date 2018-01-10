@@ -8,6 +8,7 @@
 namespace Seat\Controller;
 
 use Psr\Http\Message\ResponseInterface;
+use Seat\Model\HistoryModel;
 use Think\Controller;
 use GuzzleHttp\Client;
 
@@ -34,39 +35,70 @@ class CoreController extends Controller
         $urls = $this->getUrls();
 
         $result = $this->sendRequest($urls);
+
+        return $result;
     }
 
 
     public function sendRequest($urls)
     {
-
+        $status = 0;
         $Client = new Client(['cookies'=>true]);
         $Client->request('POST',$this->apis['cookies'],['form_params'=>['id'=>$this->tasks['username'],'pwd'=>$this->tasks['password'],'act'=>'login']]);
         $promise = $Client->requestAsync("GET",$urls[0]);
 
-        $promise->then(function(ResponseInterface $res) use ($urls,$Client)
-        {
-            echo $res->getBody();
+        $promise->then(function(ResponseInterface $res) use ($urls,$Client,$status) {
+            echo $this->tasks['username'].':'.$res->getBody();
+            echo '\n';
             $body = json_decode($res->getBody());
-            if($body->ret == '1')
-            {
-                
+            if ($body->ret == '1') {
+                $status = 1;
+                //写入history数据表
+                $historyModel = new HistoryModel();
+                $data = array(
+                    'nickname'=>$this->tasks['nickname'],
+                    'username'=>$this->tasks['usernaem'],
+                    'date'=>date('Y-m-d',(int)time()+86400),
+                    'start'=>$this->tasks['start'],
+                    'end'=>$this->tasks['end'],
+                    'seat'=>$this->tasks['seat'][0],
+                    'comment'=>'Get Best Seat',
+                    'add_time'=>time(),
+                );
+                $historyModel->add($data);
+                exit;
             }
 
-            if(isset($urls[1]))
-            {
-                for($i =1;$i<sizeof($urls);$i++)
-                {
-                    $promise = $Client->requestAsync('GET',$urls[$i]);
-                    $promise->then(function(ResponseInterface $res){
-                        echo $res->getBody();
+            if (isset($urls[1])) {
+                for ($i = 1; $i < sizeof($urls); $i++) {
+                    $promise = $Client->requestAsync('GET', $urls[$i]);
+                    $promise->then(function (ResponseInterface $res) use($status) {
+                        echo $this->tasks['username'].':'.$res->getBody();
+                        echo '\n';
+                        $body = json_decode($res->getBody());
+                        if ($body->ret == '1') {
+                            $status = 1;
+                            //写入history数据表
+                            $historyModel = new HistoryModel();
+                            $data = array(
+                                'nickname'=>$this->tasks['nickname'],
+                                'username'=>$this->tasks['usernaem'],
+                                'date'=>date('Y-m-d',(int)time()+86400),
+                                'start'=>$this->tasks['start'],
+                                'end'=>$this->tasks['end'],
+                                'seat'=>$this->tasks['seat'][0],
+                                'comment'=>'Get Best Seat',
+                                'add_time'=>time(),
+                            );
+                            $historyModel->add($data);
+                            exit;
+                        }
                     });
                 }
             }
-        }
-        );
+        });
         $promise->wait();
-
+        return $status;
     }
 
     /**
