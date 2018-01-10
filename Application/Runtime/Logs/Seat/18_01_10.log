@@ -1,0 +1,991 @@
+[ 2018-01-10T00:03:20+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001584s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0415s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `queue` SET `status`='0' WHERE `id` = 2 [ RunTime:0.0061s ]
+
+[ 2018-01-10T00:03:20+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0323s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0186s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0198s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0189s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0186s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0181s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000959s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001037s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001886s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001974s ]
+
+[ 2018-01-10T00:03:21+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001252s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0366s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 6 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `queue` SET `status`='0' WHERE `id` = 6 [ RunTime:0.0060s ]
+
+[ 2018-01-10T00:03:22+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0283s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0184s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0197s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0369s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0190s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0185s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001418s ]
+
+[ 2018-01-10T00:03:23+08:00 ] ::1 /seat/index.php/Seat/Queue/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0432s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000240s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.083159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001400s ]
+
+[ 2018-01-10T00:03:57+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_loadSeat.html?room=100457241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000934s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0381s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0197s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0020s ]
+
+[ 2018-01-10T00:04:12+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_addtask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001184s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001262s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0365s ]
+SQL: INSERT INTO `queue` (`nickname`,`username`,`password`,`start`,`end`,`seat`,`status`) VALUES ('lee','143405010219','220910','1400','1800','a:2:{i:0;s:9:\"100457446\";i:1;s:0:\"\";}','1') [ RunTime:0.0070s ]
+
+[ 2018-01-10T00:04:13+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0415s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0307s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0200s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0193s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0182s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0204s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0186s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0185s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018978s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002242s ]
+
+[ 2018-01-10T00:04:46+08:00 ] ::1 /seat/index.php/seat/main/run.html?time=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001192s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001274s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0007s ]
+
+[ 2018-01-10T00:05:20+08:00 ] ::1 /seat/index.php/seat/main/run.html?time=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0508s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0009s ]
+
+[ 2018-01-10T00:05:57+08:00 ] ::1 /seat/index.php/seat/main/run.html?time=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0367s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001804s ]
+
+[ 2018-01-10T00:06:21+08:00 ] ::1 /seat/index.php/seat/main/run.html?time=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001706s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0409s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0007s ]
+
+[ 2018-01-10T00:06:38+08:00 ] ::1 /seat/index.php/seat/main/run.html?time=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0365s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001518s ]
+
+[ 2018-01-10T00:07:13+08:00 ] ::1 /seat/index.php/Seat/Queue/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0401s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019735s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001277s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2018-01-10T00:08:05+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_loadSeat.html?room=100457241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001901s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0455s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+
+[ 2018-01-10T00:08:14+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_addtask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001334s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0362s ]
+SQL: INSERT INTO `queue` (`nickname`,`username`,`password`,`start`,`end`,`seat`,`status`) VALUES ('xy','165352630138','165352630138','1800','2200','a:2:{i:0;s:9:\"100457446\";i:1;s:0:\"\";}','1') [ RunTime:0.0056s ]
+
+[ 2018-01-10T00:08:14+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001335s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0221s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0304s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0186s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0198s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0178s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0184s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0175s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0172s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0180s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002642s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002787s ]
+
+[ 2018-01-10T00:08:39+08:00 ] ::1 /seat/index.php/seat/main/run.html?time=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0423s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001548s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2018-01-10T00:08:39+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0434s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `queue` SET `status`='0' WHERE `id` = 7 [ RunTime:0.0042s ]
+
+[ 2018-01-10T00:08:39+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0184s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `queue` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0040s ]
+
+[ 2018-01-10T00:08:40+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0264s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0177s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0350s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0176s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0175s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0181s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0200s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0217s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002123s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002221s ]
+
+[ 2018-01-10T14:13:41+08:00 ] ::1 /seat/index.php/seat/Queue/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.054361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.054486s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0566s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0360s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0119s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0111s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0116s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0123s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0112s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0121s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000322s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.322956s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.323068s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.030654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.031686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.031805s ]
+
+[ 2018-01-10T14:13:47+08:00 ] ::1 /seat/index.php/seat/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001763s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074964s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001084s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001605s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2018-01-10T14:13:48+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001319s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0292s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0203s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0107s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0116s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0117s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0104s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0112s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0117s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0112s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016887s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2018-01-10T14:13:54+08:00 ] ::1 /seat/index.php/Seat/Queue/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.112799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.112914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001621s ]
+
+[ 2018-01-10T14:14:14+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_loadSeat.html?room=100457241
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0315s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0020s ]
+
+[ 2018-01-10T14:16:12+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_deleteTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001368s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0367s ]
+SQL: DELETE FROM `queue` WHERE `id` = 1 [ RunTime:0.0056s ]
+
+[ 2018-01-10T14:16:12+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001288s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0199s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0112s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0123s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0117s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0114s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0125s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0111s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001098s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002380s ]
+
+[ 2018-01-10T14:16:13+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_deleteTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001325s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0304s ]
+SQL: DELETE FROM `queue` WHERE `id` = 2 [ RunTime:0.0054s ]
+
+[ 2018-01-10T14:16:13+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0117s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0231s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0125s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0108s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0114s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0128s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000114s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001717s ]
+
+[ 2018-01-10T14:16:14+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_deleteTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001506s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0310s ]
+SQL: DELETE FROM `queue` WHERE `id` = 3 [ RunTime:0.0043s ]
+
+[ 2018-01-10T14:16:14+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0132s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0200s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0115s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0106s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0116s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0106s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000742s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-01-10T14:16:15+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_deleteTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0380s ]
+SQL: DELETE FROM `queue` WHERE `id` = 4 [ RunTime:0.0058s ]
+
+[ 2018-01-10T14:16:15+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0257s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457448' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0136s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0109s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0110s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2018-01-10T14:16:16+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_deleteTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0332s ]
+SQL: DELETE FROM `queue` WHERE `id` = 5 [ RunTime:0.0041s ]
+
+[ 2018-01-10T14:16:16+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001324s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0122s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0197s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0118s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0117s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000188s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001292s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2018-01-10T14:16:17+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_deleteTask.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0328s ]
+SQL: DELETE FROM `queue` WHERE `id` = 6 [ RunTime:0.0056s ]
+
+[ 2018-01-10T14:16:17+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001295s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0207s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0120s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000118s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019480s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001503s ]
+
+[ 2018-01-10T14:16:18+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000998s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0333s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `queue` SET `status`='0' WHERE `id` = 7 [ RunTime:0.0052s ]
+
+[ 2018-01-10T14:16:18+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0215s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0156s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000986s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002135s ]
+
+[ 2018-01-10T14:16:19+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0328s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 8 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `queue` SET `status`='0' WHERE `id` = 8 [ RunTime:0.0056s ]
+
+[ 2018-01-10T14:16:19+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0222s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0143s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001863s ]
+
+[ 2018-01-10T14:17:39+08:00 ] ::1 /seat/index.php/Seat/Queue/ajax_changeStatus.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001648s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0316s ]
+SQL: SELECT `status` FROM `queue` WHERE `id` = 7 LIMIT 1   [ RunTime:0.0006s ]
+SQL: UPDATE `queue` SET `status`='1' WHERE `id` = 7 [ RunTime:0.0052s ]
+
+[ 2018-01-10T14:17:39+08:00 ] ::1 /seat/index.php/Seat/Queue/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001447s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `queue`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0193s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0103s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457446' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001634s ]
+

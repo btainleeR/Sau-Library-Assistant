@@ -10,4 +10,8 @@ return array(
     'DB_PORT'               =>  '3306',        // 端口
 
     'DEFAULT_MODULE' => 'Seat',             //默认模块
+
+    'TRY_TIMES' =>'3',                      //选课失败最多尝试次数
+    'SLEEP_TIME'=>'3',                      //选座失败后重新尝试时间间隔
+    'TMPL_CACHE_ON' => false,
 );
