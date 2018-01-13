@@ -15,7 +15,9 @@
                     <div id="div1">
                         <a href="<?php echo U('/Seat/Queue/index');?>"><img src="/seat/Public/images/pic1.jpg"></a>
                     </div>
-                    <div>条目2</div>
+                    <div>
+                        <a href="<?php echo U('/Seat/Explore/index');?>"><img src="/seat/Public/images/pic2.jpg"></a>
+                    </div>
                     <div>条目3</div>
                     <div>条目4</div>
                     <div>条目5</div>

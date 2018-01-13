@@ -26,4 +26,10 @@ class RoomIdModel extends Model
         $name = $this->where(['number'=>$number])->field('name')->find();
         return $name;
     }
+
+    public function getRoomNumber($name)
+    {
+        $number = $this->where(['name'=>$name])->field('number')->find();
+        return $number;
+    }
 }
