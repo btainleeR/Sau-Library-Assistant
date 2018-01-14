@@ -1,0 +1,1368 @@
+[ 2018-01-14T18:31:21+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.044248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.057569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057696s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0741s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000206s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.367863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.367965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.038963s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039069s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.033658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.033758s ]
+
+[ 2018-01-14T18:31:40+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002803s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0406s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000894s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001608s ]
+
+[ 2018-01-14T18:34:40+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0471s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000176s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001750s ]
+
+[ 2018-01-14T18:34:43+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0491s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0341s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-01-14T18:35:10+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001371s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0379s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0190s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T18:36:24+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001329s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0398s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100456542' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '637%'  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001011s ]
+
+[ 2018-01-14T18:36:26+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0401s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100456540' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '634%'  [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016131s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+
+[ 2018-01-14T18:37:25+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001606s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0515s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000169s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.066491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000927s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2018-01-14T18:37:27+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0416s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017157s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000725s ]
+
+[ 2018-01-14T18:37:30+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0412s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0380s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T18:38:17+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0430s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0196s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T18:38:18+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001539s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0385s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018487s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2018-01-14T18:38:20+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001279s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0423s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0021s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016159s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+
+[ 2018-01-14T18:38:23+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0366s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0200s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T18:44:42+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000985s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2018-01-14T18:44:45+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001306s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0431s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0206s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0023s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+
+[ 2018-01-14T18:44:47+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001724s ]
+ERR: cURL error 52: Empty reply from server (see http://curl.haxx.se/libcurl/c/libcurl-errors.html)
+
+[ 2018-01-14T18:45:15+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0466s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000749s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2018-01-14T18:45:17+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000939s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001412s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0463s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016049s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000714s ]
+
+[ 2018-01-14T18:45:21+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0422s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0397s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T18:45:38+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001342s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0591s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072079s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2018-01-14T18:45:39+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001586s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0460s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0235s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000724s ]
+
+[ 2018-01-14T18:45:42+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000984s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0386s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0203s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T18:46:44+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003024s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0669s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000256s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.130207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.130353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002467s ]
+
+[ 2018-01-14T18:46:46+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0392s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016648s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+
+[ 2018-01-14T18:46:49+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001339s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0413s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0189s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T18:46:57+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001812s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0404s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.080802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.080931s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000939s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001514s ]
+
+[ 2018-01-14T18:46:59+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0432s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000712s ]
+
+[ 2018-01-14T18:47:03+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0429s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0194s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T18:47:18+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000999s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0381s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457474' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0182s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:04:50+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001636s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0528s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096318s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000952s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2018-01-14T19:05:47+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0477s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000284s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.105004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.105124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001583s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001765s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001843s ]
+
+[ 2018-01-14T19:06:06+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001950s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000184s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001360s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2018-01-14T19:06:09+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000903s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000102s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000200s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018347s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2018-01-14T19:09:12+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0463s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082827s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000901s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001760s ]
+
+[ 2018-01-14T19:09:26+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002871s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0521s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.091316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002576s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002690s ]
+
+[ 2018-01-14T19:09:29+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0393s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000976s ]
+
+[ 2018-01-14T19:09:32+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0372s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0174s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:10:18+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001413s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0392s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067608s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2018-01-14T19:10:20+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001416s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0377s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016170s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000752s ]
+
+[ 2018-01-14T19:10:23+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000950s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001340s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0422s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457398' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0241s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:10:27+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001893s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0404s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0193s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:10:31+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000946s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0359s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457413' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0175s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:13:23+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001641s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0410s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001616s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001690s ]
+
+[ 2018-01-14T19:13:34+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002606s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0526s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.075301s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075450s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001972s ]
+
+[ 2018-01-14T19:13:39+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0511s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0022s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-01-14T19:14:27+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001505s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0393s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.069051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069141s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000711s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001516s ]
+
+[ 2018-01-14T19:16:16+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001621s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0370s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073681s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000938s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001646s ]
+
+[ 2018-01-14T19:16:20+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0397s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015659s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015754s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000735s ]
+
+[ 2018-01-14T19:16:22+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0415s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '107396184' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '701%'  [ RunTime:0.0024s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000740s ]
+
+[ 2018-01-14T19:16:25+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001308s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0413s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000215s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2018-01-14T19:16:48+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0422s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0188s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000953s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001015s ]
+
+[ 2018-01-14T19:16:49+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001359s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0409s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '107396184' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '701%'  [ RunTime:0.0029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000969s ]
+
+[ 2018-01-14T19:16:53+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000923s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0449s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398320' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0181s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:16:55+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000945s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001287s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0399s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398320' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0173s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:16:56+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001654s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0412s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398320' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0210s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:16:57+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0397s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398320' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0176s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:16:58+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001929s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0405s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398320' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0173s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:16:59+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001291s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0436s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0172s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:17:00+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000942s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001311s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0455s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0186s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:17:01+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001270s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0374s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0182s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:17:02+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0481s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0190s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:17:03+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001743s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0454s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0197s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:17:04+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002352s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0397s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0178s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:17:54+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001299s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0424s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '107398322' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0228s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '701' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:18:40+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0457s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000139s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000982s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001661s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2018-01-14T19:18:43+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001390s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0475s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022093s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001118s ]
+
+[ 2018-01-14T19:18:46+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0404s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0193s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:18:55+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0433s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0183s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:19:01+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001670s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0424s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0179s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:19:30+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000970s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001296s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0397s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0184s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:20:14+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001526s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0429s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0201s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:20:19+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001317s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0416s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0192s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-01-14T19:20:23+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001943s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0411s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0194s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:20:58+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0427s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457401' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0174s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:21:36+08:00 ] ::1 /seat/index.php/seat/explore/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002760s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0400s ]
+SQL: SELECT * FROM `room_id`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000175s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018683s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000981s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001674s ]
+
+[ 2018-01-14T19:21:38+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_getSeats.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001367s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0464s ]
+SQL: SELECT `name` FROM `room_id` WHERE `number` = '100457241' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0194s ]
+SQL: SELECT * FROM `seat_id` WHERE `name` LIKE '702%'  [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016449s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-01-14T19:21:41+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002041s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0425s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457400' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0178s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:21:55+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001400s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0369s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457447' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0183s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-01-14T19:22:12+08:00 ] ::1 /seat/index.php/Seat/Explore/ajax_who.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001446s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001762s ]
+SQL: SHOW COLUMNS FROM `seat_id` [ RunTime:0.0418s ]
+SQL: SELECT `name` FROM `seat_id` WHERE `number` = '100457449' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `room_id` [ RunTime:0.0179s ]
+SQL: SELECT `number` FROM `room_id` WHERE `name` = '702' LIMIT 1   [ RunTime:0.0006s ]
+

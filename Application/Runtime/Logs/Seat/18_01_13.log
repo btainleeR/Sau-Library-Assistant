@@ -3874,3 +3874,16 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
 
+[ 2018-01-13T23:01:16+08:00 ] ::1 /seat/index.php/Seat/main/run
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.071447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.071565s ]
+SQL: SHOW COLUMNS FROM `queue` [ RunTime:0.0851s ]
+SQL: SELECT * FROM `queue` WHERE `status` = 1  [ RunTime:0.0011s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.032205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.032370s ]
+

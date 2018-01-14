@@ -33,7 +33,13 @@ class ExploreController extends Controller
     public function ajax_who()
     {
         $seatid = I('seatid');
-
+        $when = I('when');
+        if($when == '1')
+        {
+            $itime = (int)time();
+        }else{
+            $itime = (int)time()+86400;
+        }
         //获取带Cookies的http客户端
         $client = new Client(['cookies'=>true]);
         $client->request('POST','http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/login.aspx?',['form_params'=>['id'=>'153401040229','pwd'=>'153401040229','act'=>'login']]);
@@ -53,7 +59,7 @@ class ExploreController extends Controller
             'room_id'=>$roomId,
             'purpose'=>'',
             'cld_name'=>'default',
-            'date'=> date("Y-m-d",time()),
+            'date'=> date("Y-m-d",$itime),
             'fr_start'=>'15:40',
             'fr_end'=>'16:40',
             'act'=>'get_rsv_sta',
