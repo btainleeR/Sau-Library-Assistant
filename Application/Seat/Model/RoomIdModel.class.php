@@ -27,9 +27,27 @@ class RoomIdModel extends Model
         return $name;
     }
 
+    /**
+     * @param $name Room Name
+     * @return mixed   data['name'] = '701'
+     */
     public function getRoomNumber($name)
     {
         $number = $this->where(['name'=>$name])->field('number')->find();
         return $number;
+    }
+
+    /**
+     * @return array [0]=>'12332',[1]=>'7787'
+     */
+    public function getAllNum()
+    {
+        $data = $this->field('number')->select();
+        $info = array();
+        foreach($data as $v)
+        {
+            array_push($info,$v['number']);
+        }
+        return $info;
     }
 }
