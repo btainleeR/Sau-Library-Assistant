@@ -66,7 +66,7 @@ class CoreController extends Controller
                     'add_time'=>time(),
                 );
                 $historyModel->add($data);
-                exit;
+                return;
             }
 
             if (isset($urls[1])) {
@@ -82,7 +82,7 @@ class CoreController extends Controller
                             $historyModel = new HistoryModel();
                             $data = array(
                                 'nickname'=>$this->tasks['nickname'],
-                                'username'=>$this->tasks['usernaem'],
+                                'username'=>$this->tasks['username'],
                                 'date'=>date('Y-m-d',(int)time()+86400),
                                 'start'=>$this->tasks['start'],
                                 'end'=>$this->tasks['end'],
@@ -91,7 +91,7 @@ class CoreController extends Controller
                                 'add_time'=>time(),
                             );
                             $historyModel->add($data);
-                            exit;
+                            return;
                         }
                     });
                 }
