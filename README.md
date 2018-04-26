@@ -45,6 +45,8 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
 //失败
 {"ret":0,"act":"set_resv","msg":"2018-04-26参数错误，预约开始时间必须小于预约结束时间","data":null,"ext":null}
 {"ret":0,"act":"set_resv","msg":"2018-04-26预约与现有预约冲突","data":null,"ext":null}
+//成功
+{"ret":1,"act":"set_resv","msg":"操作成功！","data":null,"ext":null}
 ```
 
 
