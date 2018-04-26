@@ -94,6 +94,10 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
 }
 ```
 
+```php
+   //数据过于复杂，请自行测试，漏洞来自此接口
+```
+
 - 4 更具精确姓名搜索信息
 <b>http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/data/searchAccount.aspx</b>
 <code>GET</code>方式获取。需要携带Cookies,无Cookies无法调用。
@@ -105,6 +109,10 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
     'term'  =>'***',    //用户姓名
     '_'     => time().rand(111,999),
 }
+```
+
+```javascript
+[{"id":"21","name": "陈*","label": "陈*(计算机学院)","szLogonName": "15***101","szHandPhone": "180******27","szTel": "","szEmail": "22******7@qq.com"}]
 ```
 
 
