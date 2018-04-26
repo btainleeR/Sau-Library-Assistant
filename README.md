@@ -10,7 +10,7 @@
 {"ret":1,"act":"login","msg":"ok","data":{"id":"1434*****219","accno":"100***214","name":"***","phone":"18940046581","email":"283733387@qq.com","msn":"","ident":"4194560","dept":"安全工程学院","deptid":"1004***3","tutor":null,"tutorid":null,"cls":"安全1**2","clsid":"100***636","receive":true,"tsta":null,"rtsta":null,"pro":null,"score":100,"credit":[["研修间","100","100",""],["未启用","100","100",""]],"role":"13***30"},"ext":null}
 //失败
 {"ret":0,"act":"login","msg":"您的密码输入有误-本IP还有【4】次登录机会","data":null,"ext":null}
-```javascript
+```
 
 - 2  预约座位接口(自修室)  
 <b>http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/reserve.aspx</b>,  
