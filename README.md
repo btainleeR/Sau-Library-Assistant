@@ -40,6 +40,13 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
 }
 ```
 
+```javascript
+//返回内容
+//失败
+{"ret":0,"act":"set_resv","msg":"2018-04-26参数错误，预约开始时间必须小于预约结束时间","data":null,"ext":null}
+```
+
+
 - 3  座位唯一编号接口
 <b>http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/device.aspx</b>  
 <code>GET</code>方式获取。需要携带Cookies,无Cookie无法调用。
