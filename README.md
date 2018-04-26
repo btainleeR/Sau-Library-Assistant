@@ -115,5 +115,14 @@ GET方式提，注意url参数的url编码问题。<font color="red">通过Cooki
 [{"id":"21","name": "陈*","label": "陈*(计算机学院)","szLogonName": "15***101","szHandPhone": "180******27","szTel": "","szEmail": "22******7@qq.com"}]
 ```
 
+- 5 预约删除接口
+
+http://libreserve.sau.edu.cn/ClientWeb/pro/ajax/reserve.aspx?act=del_resv&id=113138064&_=1524714662558
+
+```javascript
+//成功
+{"ret":1,"act":"del_resv","msg":"操作成功！","data":null,"ext":null}
+```
+
 
 
